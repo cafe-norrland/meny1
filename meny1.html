@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Lunch Menu</title>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: 'Montserrat', sans-serif;
+      font-size: 16px;
+      color: #333;
+      background: #fff;
+    }
+    .menu {
+      max-width: 600px;
+      margin: auto;
+      padding: 10px;
+    }
+    .menu-item {
+      border-bottom: 1px solid #eee;
+      padding: 15px 0;
+    }
+    .menu-item:last-child {
+      border-bottom: none;
+    }
+    .swedish {
+      font-weight: bold;
+      font-size: 18px;
+      color: #000;
+      display: block;
+    }
+    .english-title {
+      font-size: 16px;
+      color: #5a5a5a;
+      display: block;
+      margin-bottom: 5px;
+    }
+    .swedish-description,
+    .english {
+      font-size: 14px;
+      color: #666;
+      display: block;
+      line-height: 1.4;
+      margin-top: 2px;
+    }
+    .price {
+      font-weight: bold;
+      color: #000;
+      margin-top: 8px;
+      font-size: 16px;
+    }
+    .highlight {
+      font-size: 16px;
+      font-weight: bold;
+      color: #D32F2F;
+      margin-top: 8px;
+      text-align: left;
+    }
+    .heading {
+      text-align: center;
+      font-size: 20px;
+      font-weight: bold;
+      color: #D32F2F;
+      margin: 20px 0;
+    }
+    .separator {
+      text-align: center;
+      margin: 20px 0;
+      font-size: 24px;
+      color: #ccc;
+    }
+    .note {
+      font-size: 13px;
+      color: #666;
+      font-style: italic;
+      margin-top: 20px;
+      text-align: left;
+    }
+  </style>
+</head>
+<body>
+  <div class="menu">
+    <div class="heading">Between 11:00 – 14:00</div>
+
+    <div class="menu-item">
+      <span class="swedish">Måltid Soppa*</span>
+      <span class="english-title">Soup*</span>
+      <span class="swedish-description">Hemlagad med bröd, smör och ost</span>
+      <span class="english">Homemade with bread, butter and cheese</span>
+      <div class="price">145 kr</div>
+    </div>
+
+    <div class="menu-item">
+      <span class="swedish">Västerbottenostpaj*</span>
+      <span class="english-title">Cheese Pie*</span>
+      <span class="swedish-description">Hemlagad ± 200 gr varm paj med sallad</span>
+      <span class="english">Homemade ± 200 g warm pie with salad</span>
+      <div class="price">145 kr</div>
+    </div>
+
+    <div class="menu-item">
+      <span class="swedish">Cesar Sallad</span>
+      <span class="english-title">Caesar Salad</span>
+      <span class="swedish-description">Sallad, ägg, krutonger*, parmesan, kyckling och bacon, dressing, toast, smör</span>
+      <span class="english">Salad, egg, croutons*, parmesan cheese, chicken and bacon, dressing, toast, butter</span>
+      <div class="price">145 kr</div>
+    </div>
+
+    <div class="menu-item">
+      <span class="swedish">Toast Skagen*</span>
+      <span class="english-title">Toast with Shrimp Salad*</span>
+      <span class="swedish-description">Hemlagad<br>Räkor, majonnäs, mjuk ost, crème fraîche och sallad</span>
+      <span class="english">Homemade<br>Shrimp, mayonnaise, soft cheese, crème fraîche and salad</span>
+      <div class="price">165 kr</div>
+    </div>
+
+    <div class="menu-item">
+      <span class="swedish">Sandwich In The Valley*</span>
+      <span class="english-title">Sandwich In The Valley*</span>
+      <span class="swedish-description">Bröd med kalvkött, paprika, lök och jordnötssås</span>
+      <span class="english">Bread with veal, paprika, onion and peanut sauce</span>
+      <div class="highlight">Coming soon!</div>
+    </div>
+
+    <div class="menu-item">
+      <span class="swedish">2 Kött kroketter*</span>
+      <span class="english-title">2 Meat Croquettes*</span>
+      <span class="swedish-description">Bröd med 2 kroketter och senap</span>
+      <span class="english">2 croquettes with mustard</span>
+      <div class="price">125 kr</div>
+    </div>
+
+    <div class="menu-item">
+      <span class="swedish">Pannkaka</span>
+      <span class="english-title">Pancakes</span>
+      <span class="swedish-description">3 pannkakor med choklad eller sylt och grädde</span>
+      <span class="english">3 pancakes with chocolate or jam and cream</span>
+      <div class="price">85 kr</div>
+    </div>
+
+    <div class="separator">⸻</div>
+
+    <div class="note">
+      *Kan innehålla gluten och/eller laktos / *May contain gluten and/or lactose<br>
+      Fråga gärna vår personal om vi har andra alternativ / Feel free to ask our staff if we have other options
+    </div>
+  </div>
+</body>
+</html>
